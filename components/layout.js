@@ -1,14 +1,13 @@
-import Header from './header'
+import Header from '../components/header'
 
 const layoutStyle = {
-  margin: 20,
+  margin: 5,
   padding: 20,
-  border: '1px solid #DDD'
+  backgroundColor: "#DCDCDC",
 }
 
 const Layout = props => (
   <div style={layoutStyle}>
-    <Header />
     {props.children}
   </div>
 )
