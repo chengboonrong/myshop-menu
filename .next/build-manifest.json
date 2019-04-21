@@ -19,18 +19,14 @@
     ],
     "/about": [
       "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
     "/contact": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/format": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/hardisk": [
-      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
     "/index": [
@@ -39,7 +35,7 @@
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/ram": [
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

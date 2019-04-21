@@ -1,14 +1,14 @@
-import Layout from '../components/layout'
+import Body from '../components/body'
 import Header from '../components/header'
 
 const Contact = () => (
     <div>
         <Header />
-        <Layout>
+        <Body>
             <title>Contact</title>
             <p>Facebook: <a href="#" target="_blank"></a>Shop_Name</p>
             <p>Instagram: <a href="#" target="_blank"></a>Shop_Name</p>
-        </Layout>    
+        </Body>    
     </div>
     
 )

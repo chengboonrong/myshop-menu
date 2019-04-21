@@ -5,17 +5,17 @@ const Header = () => (
     <nav>
       <ul>
         <li>
-          <Link prefetch href="/">
+          <Link href="/">
             <a>Home</a>
           </Link>
         </li>
         <li>
-          <Link prefetch href="/about">
+          <Link href="/about">
             <a>About</a>
           </Link>
         </li>
         <li>
-          <Link prefetch href="/contact">
+          <Link href="/contact">
             <a>Contact</a>
           </Link>
         </li>
@@ -40,7 +40,7 @@ const Header = () => (
         display: block;
         color: #666;
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px 15px;
         text-decoration: none;
       }
       

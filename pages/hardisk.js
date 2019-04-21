@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Body from '../components/body'
 import Header from '../components/header'
 
 const Page = () => (
@@ -35,16 +35,8 @@ const Page = () => (
                 </figure>
                 
                 <style jsx>{`
-                    figure,
-                    table{
-                        margin-left: 0;
-                        margin-right: 30px;
-                        display: inline-block;
-                    }
-
-                    table{
-                        position: relative;
-                        top: -460px;
+                    figure, table{
+                        margin-bottom: 10px;
                     }
                 `}</style>
             </div>

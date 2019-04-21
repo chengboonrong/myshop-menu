@@ -1,8 +1,8 @@
-import Layout from '../components/layout'
+import Body from '../components/body'
 import Link from 'next/link'
 import Header from '../components/header'
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import 'bootstrap-css-only/css/bootstrap.min.css';
+import Footer from '../components/footer'
+import App from '../components/app'
 
 const PostLink = item => (
   <Link href={`/${item.id}`}>
@@ -13,7 +13,7 @@ const PostLink = item => (
 const Index = () => (
   <div>
     <Header />
-    <Layout>
+    <Body>
       <title>Home</title>
       <h1>Welcome to Shop_Name</h1>
         <li>
@@ -25,7 +25,8 @@ const Index = () => (
         <li>
           <PostLink id="format" title="Windows Format"/>
         </li>
-    </Layout>
+    </Body>
+    <Footer/>
   </div>
 )
 
